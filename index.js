@@ -16,8 +16,8 @@ exports.handler = function(event, context) {
 
 function makeRequest(customHostname, customPath, connectTimeout, readTimeout) {
     
-    console.log("HostName:   " + customHostname);
-    console.log("CustomPath: " + customPath);
+	console.log("HostName:   " + customHostname);
+	console.log("CustomPath: " + customPath);
 	console.log("ConnectTimeout: " + connectTimeout);
 	console.log("ReadTimeout: " + readTimeout);
     
