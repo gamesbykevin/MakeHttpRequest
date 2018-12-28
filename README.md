@@ -14,4 +14,8 @@ To test our functionality you need to specify 4 parameters
 4) Read timeout - how long after connecting do we wait for the response (in milliseconds example: "500"
 
 Call this function for testing
-makeRequest('api.nasa.gov', '/planetary/apod?api_key=DEMO_KEY', 4500,  500);
+
+
+```node 
+makeRequest('api.nasa.gov', '/planetary/apod?api_key=DEMO_KEY', 4500,  500); 
+```
