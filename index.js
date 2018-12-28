@@ -1,8 +1,5 @@
 const https = require('https')
 
-//test our functionality
-//makeRequest('api.nasa.gov', '/planetary/apod?api_key=DEMO_KEY', 4500,  500);
-
 exports.handler = function(event, context) {
 	
 	//access server variables
